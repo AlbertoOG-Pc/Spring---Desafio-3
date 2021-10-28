@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>SISTEMA EVERIS</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body class="card-body">
+
+		<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+		    <a class="navbar-brand" th:href="@{/showCustomersView}" role="button">Ver todos los clientes.</a>
+			<a class="navbar-brand" th:href="@{/searchCustomerByView}" role="button">Buscar cliente por nombre.</a>
+			<a class="navbar-brand" th:href="@{/newCustomerView}" role="button">Añadir cliente.</a>
+		</nav>
+	
+		<div class="card text-white bg-dark mb-3">
+		  	<div class="card-body">
+				<h3>Bienvenid@ al sistema.</h3>
+				<h4>Por favor, seleccione una acción.</h4>
+			</div>
+		</div>
+	</body>
+</html>
